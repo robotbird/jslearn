@@ -7,6 +7,8 @@ function htmlEscape(text){
         switch (match){
             case "<":
                 return "&lt;";
+            case ">":
+                return "&gt;";
         }
     })
 }
