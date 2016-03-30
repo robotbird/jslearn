@@ -9,6 +9,8 @@ function htmlEscape(text){
                 return "&lt;";
             case ">":
                 return "&gt;";
+            case "&":
+                return "&amp;";
         }
     })
 }
